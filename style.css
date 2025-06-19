@@ -42,7 +42,7 @@ li{
 }
 
 nav{
-    background-color:#f3faff;
+    background-color:#8cd1e1;
     box-shadow:0 0 6px #c5d1db;
     position:fixed;
     top:0;
@@ -52,7 +52,8 @@ nav{
 }
 .main-nav{
     justify-content:space-between;
-    padding-block:6px;
+    padding-block:4px;
+    padding-inline:20px;
 }
 .company-logo img{
     width:180px;
@@ -65,20 +66,19 @@ nav{
     font-family:Arial, Helvetica, sans-serif;
     color:var(--primary-text-color);
     font-weight:500;
-    font-size:1.4rem;
+    font-size:1.8rem;
 }
 .hover-link{
     cursor:pointer;
 }
 .hover-link:hover{
-    color:var(--secondary-text-color);
+    color:blue;
 }
 .hover-link:active{
-    color:rgb(51, 51, 99);
+    color:rgb(69, 69, 150);
 }
-
 .nav-items.active{
-    color:var(--accent-color);
+    color:blue;
 }
 .search-bar{
     height:32px;
@@ -90,18 +90,20 @@ nav{
     padding-inline:12px;
     border-radius:4px;
     border:2px solid #bbd0e2;
-     font-family:roboto, san-serif;
+    font-family:roboto, san-serif;
+    font-size:1.2rem;
 }
 .search-button{
+    color:black;
     background-color:var(--accent-color);
     height:40px;
     width:100px;
-    color:white;
     padding:8px 24px;
     border:none;
     border-radius:4px;
     cursor:pointer;
     font-family:roboto, san-serif;
+    font-size:1.2rem;
 }
 .search-button:hover{
     background-color:var(--accent-color-dark);
@@ -118,8 +120,8 @@ main{
     align-items:start;
 }
 .card{
-    width:360px;
-    min-height:400px;
+    width:500px;
+    min-height:480px;
     box-shadow:0 0 4px #d4ecff;
     border-radius:4px;
     cursor:pointer;
@@ -129,18 +131,29 @@ main{
 }
 .card:hover{
     box-shadow:1px 1px 4px #d4ecff;
-    background-color:#f9fdff;
+    background-color:#cce5f3;
     transform: translateY(-2px);
 }
 .card-header img{
     width:100%;
-    height:200px;
+    height:240px;
     object-fit:cover;
 }
 .card-content{
-    padding:12px;
+    padding:16px;
+    font-size:1.2rem;
 }
 .news-source{
     margin-block:12px;
-    
 }
+#news-title {
+    font-size: 1.6rem;         
+    font-weight: bold;
+}
+.news-source {
+    font-size: 1rem;          
+    margin-block: 12px;
+}
+
+
+
